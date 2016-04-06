@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[(function(angular) {
+    <content><![CDATA[(function(window, document, \$, angular) {
   'use strict';
 
   angular
@@ -30,7 +30,7 @@
   function ${4:Controller}() {
 
   }
-})(window.angular);
+})(window, document, jQuery, angular);
 ]]></content>
     <tabTrigger>ngdirective</tabTrigger>
     <scope>text.plain, source.js</scope>

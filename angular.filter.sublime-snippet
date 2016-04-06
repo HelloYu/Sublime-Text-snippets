@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[(function(angular) {
+    <content><![CDATA[(function(window, document, \$, angular) {
   'use strict';
 
   angular
@@ -16,7 +16,7 @@
     }
   }
 
-})(window.angular');
+})(window, document, jQuery, angular');
 ]]></content>
     <tabTrigger>ngfilter</tabTrigger>
     <scope>text.plain, source.js</scope>

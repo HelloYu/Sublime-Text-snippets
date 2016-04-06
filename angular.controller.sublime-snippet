@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[(function(angular) {
+    <content><![CDATA[(function(window, document, \$, angular){
   'use strict';
   angular
     .module('${1:module}')
@@ -11,7 +11,7 @@
     var vm = this;
     
   }
-})(window.angular);
+})(window, document, jQuery, angular);
 ]]></content>
     <tabTrigger>ngcontroller</tabTrigger>
     <scope>text.plain, source.js</scope>
